@@ -1,0 +1,32 @@
+body{
+  color: black;
+  background-color: aqua;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+}
+.small{
+  background-color: white;
+  padding: 20px 30px 30px 35px;
+  border: 5px solid black ;
+  margin: 20px 30px 40px 50px;
+  width: 400pxpx;
+  text-align: center;
+}
+.ok{
+  border: 10px dotted red;
+  background-color: lightgray;
+  
+}
+h1{
+  color: blue;
+  border: 2px solid green;
+  padding: 3px 3px 3px 3px;
+  margin: 4px 4px 4px 4px;
+  background-color: beige;
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+}
+.box{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  font: bold 3rem cursive;
+  color: white;
+  margin: 2vmax;
+ /* transition: all 0.5s ease-in ;  */
+  
+}
+
+/*    for trasition and transform  
+.box:hover{
+  background-color: tomato;
+  color: blue;
+  width: 20%;
+  box-shadow: 10px 20px 30px black;
+ /* transform: skewX(60deg); */
+ /* transform: translate(100px,230px); */
+ /* transform:scale(4); */
+ /*transform:scale(1,2);*/
+ /*transform:rotatex(90deg);*/
+ /* we can also use scale,skew and rotate in one transform 
+ transform:scale(1,2) skewX(20deg) rotatez(30deg) translate(100px,100px);
+}
+
+*/
+#box1{
+  animation-name: myanimation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+  /*from{
+    background-color: red;
+  }
+  to{
+    background-color: blue;
+  }
+    */
+    0% {
+      background-color: red;
+      transform: scale(2);
+
+    }
+    50% {
+      border-radius: 100%;
+      background-color: blue;
+
+    }
+    100%
+     {
+       background-color: black;
+       transform: scale(20);
+     }
+  }

@@ -1,0 +1,101 @@
+body{
+  background-image: url(/practice/bg.webp);
+  margin: 0;
+  height: 155vh;
+  width: 200vh;
+  
+}
+header{
+  width: 210vh;
+  padding: 20px;
+  color: white;
+  font-family:'roboto',sans-serif ;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(35, 33, 33, 0.824);
+  
+}
+.logbox{
+ 
+  display: inline-block;
+  width: 150px;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+  
+
+}
+.navbox{
+  
+  width: 600px;
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.navbox>a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+.navbox>a:hover{
+  cursor: pointer;
+  color: salmon;
+}
+#home{
+  color: salmon;
+}
+.heading{
+  color: salmon;
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 60px;
+  left: 70px;
+  width: 500px;
+  
+}
+.heading+h3{
+  color: white;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  
+  left: 80px;
+  width: 500px;
+}
+.heading+h3+p{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  position: relative;
+  left: 80px;
+  width: 400px;
+  top: 20px;
+  word-spacing: 4px;
+}
+.btn{
+  width: 150px;
+  padding: 15px;
+  border: 2px solid salmon;
+  background-color: salmon;
+  position: relative;
+  left: 80px;
+  top: 20px;
+  font-weight: 600;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover{
+  background-color: rgba(241, 241, 241,0);
+  color: white;
+}
+footer{
+  color: white;
+  position: fixed;
+  bottom: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

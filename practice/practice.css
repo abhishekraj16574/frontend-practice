@@ -1,0 +1,37 @@
+/* *{
+  color: violet;
+  background-color: lightgray;
+}*/
+span{
+  color: red;
+  background-color: antiquewhite;
+}
+.abhi{
+  color: green !important;
+}
+.singh{
+  color: blue;
+}
+.abhi{
+  color: green;
+}
+.singh{
+  color: blue;
+}
+.singh{
+  color: blue;
+}
+span>p{
+  color: rgb(51, 8, 8);
+}
+#lodu{
+  color: yellow;
+  background-color: pink;
+}
+#lalit{
+   color: bisque;
+   background-color: blueviolet;
+}
+a[href="/instagram"]{
+  color: brown;
+}
